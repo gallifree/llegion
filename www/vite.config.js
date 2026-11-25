@@ -4,7 +4,7 @@ import vike from 'vike/plugin'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  // GitHub Pages project site: https://gallifree.github.io/llegion/
+  // GitHub Pages project site: https://gallifree.app/llegion/
   base: '/llegion/',
   plugins: [vike(), react(), tailwindcss()],
   // The logo and screenshots are imported from the repo root, so they stay in one place.
